@@ -1,0 +1,12 @@
+{
+  "start_url": "https://www.google.com",
+  "max_steps": 60,
+  "headless": true,
+  "timeout_ms": 15000,
+  "max_elements": 140,
+  "allow_private_network": false,
+  "worker_poll_seconds": 2,
+  "data_dir": "data",
+  "database": "data/atom.db",
+  "viewport": {"width": 1440, "height": 1000}
+}
