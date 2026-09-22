@@ -7,6 +7,7 @@ ATOM on tiimin sisäinen, itsenäisesti työskentelevä selainagentti. Se suorit
 - Playwright/Chromium-selain ja LLM-suunnittelija
 - jatkuva SQLite-tehtäväjono
 - puhelimella käytettävä ATOM Control -hallintasivu
+- iPhonen kotinäyttöön asennettava PWA-äppi ilman App Storea
 - puheesta tekstiksi -ohjaus ja vastausten lukeminen ääneen puhelimessa
 - oppimismuisti päätöksille, mieltymyksille, kontakteille ja työn opeille
 - työtilat `tommi-hq`, `ewalahti` ja `future-atom`
@@ -30,6 +31,7 @@ chmod +x start.sh
 ```
 
 5. Avaa ilmoitettu portti **8000**. ATOM Control toimii iPhonen selaimessa.
+6. Valitse Safarissa **Jaa → Lisää Koti-valikkoon**, jolloin ATOM avautuu omana appinaan.
 
 Pidä Codespace-portti yksityisenä. Kirjautumiset ja MFA tehdään ihmisen toimesta; agentti ei vastaanota eikä tallenna salasanoja tai vahvistuskoodeja.
 
