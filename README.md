@@ -35,6 +35,12 @@ chmod +x start.sh
 
 Pidä Codespace-portti yksityisenä. Kirjautumiset ja MFA tehdään ihmisen toimesta; agentti ei vastaanota eikä tallenna salasanoja tai vahvistuskoodeja.
 
+## Maksuton käyttö ilman korttia
+
+Repo sisältää **ATOM Free Worker** -GitHub Actions -ajon. Avaa GitHubissa **Actions → ATOM Free Worker → Run workflow**, kirjoita tehtävä ja valitse työtila. Työ käynnistyy erillisessä selaimessa, ja tulos näkyy ajon Summary-näkymässä.
+
+Maksuton tila käyttää GitHub Copilot CLI:tä sisäänrakennetulla `GITHUB_TOKEN`-tunnuksella. Se sopii tutkimiseen, vertailuun, tarkistuksiin ja luonnosteluun. Kirjautumista tai ihmisen hyväksyntää vaativat ulkoiset toimet pysähtyvät turvallisesti. Jatkuvasti hereillä oleva PWA tarvitsee myöhemmin palvelimen tai oman aina päällä olevan tietokoneen.
+
 ## Paikallinen käynnistys
 
 ```bash

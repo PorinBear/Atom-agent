@@ -84,8 +84,8 @@ def worker(config: dict, once: bool = False):
 
 def main():
     load_dotenv()
-    if not os.getenv("OPENAI_API_KEY"):
-        raise SystemExit("OPENAI_API_KEY puuttuu. Lisää se .env-tiedostoon tai Codespaces-secretsiin.")
+    if not os.getenv("OPENAI_API_KEY") and os.getenv("ATOM_PLANNER") != "copilot":
+        raise SystemExit("OPENAI_API_KEY puuttuu. Käytä API-avainta tai ATOM_PLANNER=copilot.")
     parser = argparse.ArgumentParser(description="ATOM autonomous browser worker")
     parser.add_argument("prompt", nargs="*")
     parser.add_argument("--workspace", default="tommi-hq")

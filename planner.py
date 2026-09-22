@@ -1,4 +1,6 @@
 import json
+import os
+import subprocess
 from openai import OpenAI
 
 SYSTEM_PROMPT = """
@@ -15,12 +17,22 @@ For done, include a concise summary and optionally a `memories` array of durable
 
 class Planner:
     def __init__(self, model: str):
-        self.client = OpenAI(); self.model = model
+        self.backend = os.getenv("ATOM_PLANNER", "openai")
+        self.client = None if self.backend == "copilot" else OpenAI()
+        self.model = model
 
     def next_action(self, task: str, page_state: dict, history: list[dict], memories=None) -> dict:
         payload = {"task": task, "page_state": page_state, "recent_history": history[-12:], "workspace_memory": memories or []}
-        response = self.client.responses.create(model=self.model, input=[{"role": "system", "content": SYSTEM_PROMPT}, {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}])
-        raw = response.output_text.strip()
+        if self.backend == "copilot":
+            prompt = SYSTEM_PROMPT + "\n\nINPUT:\n" + json.dumps(payload, ensure_ascii=False)
+            result = subprocess.run(
+                ["copilot", "-p", prompt, "-s", "--no-ask-user"],
+                check=True, capture_output=True, text=True, timeout=120,
+            )
+            raw = result.stdout.strip()
+        else:
+            response = self.client.responses.create(model=self.model, input=[{"role": "system", "content": SYSTEM_PROMPT}, {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}])
+            raw = response.output_text.strip()
         if raw.startswith("```"): raw = raw.replace("```json", "", 1).replace("```", "").strip()
         action = json.loads(raw)
         if not isinstance(action, dict) or "action" not in action: raise ValueError("Planner returned an invalid action.")
