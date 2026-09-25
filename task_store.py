@@ -50,7 +50,9 @@ class TaskStore:
         with self.connect() as db:
             row = db.execute("SELECT approval_fingerprint FROM tasks WHERE id=?", (task_id,)).fetchone()
             if not row or not row[0]: return False
-            db.execute("UPDATE tasks SET status='queued',approved_fingerprint=approval_fingerprint,updated_at=? WHERE id=?", (now(), task_id)); return True
+            fingerprint = row[0]
+            db.execute("UPDATE tasks SET status='queued',approved_fingerprint=?,updated_at=? WHERE id=?", (fingerprint, now(), task_id))
+            return True
 
     def deny(self, task_id):
         with self.connect() as db: db.execute("UPDATE tasks SET status='failed',result='Toiminto hylättiin',updated_at=? WHERE id=?", (now(), task_id))
