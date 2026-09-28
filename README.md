@@ -12,8 +12,6 @@
 
 ![ATOM Live Status](docs/assets/atom-cockpit-status.webp)
 
-# ATOM Agent
-
 ATOM on tiimin sisäinen, itsenäisesti työskentelevä selainagentti. Se suorittaa verkkotehtäviä pysyvässä selainprofiilissa, pitää eri yritysten tiedot erillisissä työtiloissa ja pysähtyy hyväksyntään ennen ulkoisia tai vaikeasti peruttavia toimia.
 
 ## Nyt mukana
