@@ -1,5 +1,19 @@
 # ATOM Agent
 
+> **Viimeisin kehityspäivitys 29.9.2026 — WIP.** ATOMia viedään kohti jatkuvasti toimivaa AI-ohjaamoa, jossa keskustelu, taustatehtävät, selainagentti, projektit, muistikerros, hyväksynnät ja tulokset näkyvät samassa käyttöliittymässä. Kaikki uudemman kehityslinjan osat eivät ole vielä yhdistetty tähän julkiseen haaraan.
+>
+> [Katso tarkempi kehitystilanne](docs/STATUS-2026-09-29.md)
+
+### Ohjaamon suunta
+
+*Nämä ovat konsepti-/target-kuvia, eivät tuotannon runtime-kuvakaappauksia.*
+
+![ATOM Command Center](docs/assets/atom-cockpit-overview.webp)
+
+![ATOM Live Status](docs/assets/atom-cockpit-status.webp)
+
+# ATOM Agent
+
 ATOM on tiimin sisäinen, itsenäisesti työskentelevä selainagentti. Se suorittaa verkkotehtäviä pysyvässä selainprofiilissa, pitää eri yritysten tiedot erillisissä työtiloissa ja pysähtyy hyväksyntään ennen ulkoisia tai vaikeasti peruttavia toimia.
 
 ## Nyt mukana
