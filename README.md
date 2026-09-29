@@ -60,6 +60,18 @@ Alla olevat kuvat ovat projektin nykyisiä oikeita konsepti-/käyttöliittymäku
 
 ![Sentry käyttöliittymän lisänäkymä](docs/IMG_0204.jpeg)
 
+### Aikuisten uudet käyttöliittymäkuvat
+
+![Sentry aikuisten näkymä 1](IMG_0222.jpeg)
+
+![Sentry aikuisten näkymä 2](IMG_0223.jpeg)
+
+![Sentry aikuisten näkymä 3](IMG_0224.jpeg)
+
+![Sentry aikuisten näkymä 4](IMG_0225.jpeg)
+
+![Sentry aikuisten näkymä 5](IMG_0239.jpeg)
+
 ### Teini-ikäisten käyttöliittymäkuvat
 
 ![Sentry teinien näkymä 1](IMG_0226.jpeg)
