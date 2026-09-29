@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Child dashboard mockup 2</title>
+  <desc id="desc">A child dashboard with a friendly layout, task cards, and pastel colors.</desc>
+  <defs>
+    <linearGradient id="bgChild2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fff7ef"/>
+      <stop offset="100%" stop-color="#f7fbff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bgChild2)"/>
+  <rect x="0" y="0" width="220" height="800" fill="#f8faff"/>
+  <text x="110" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#3a3f54" font-weight="700">Kids</text>
+
+  <rect x="260" y="50" width="890" height="680" rx="28" fill="#fffefe" stroke="#f7e6cc" stroke-width="2"/>
+  <text x="295" y="108" font-family="Arial, sans-serif" font-size="32" fill="#2d3d59" font-weight="700">My learning room</text>
+  <text x="295" y="140" font-family="Arial, sans-serif" font-size="15" fill="#6c7b99">Child view • Theme B</text>
+
+  <rect x="295" y="180" width="270" height="170" rx="24" fill="#dff9ef"/>
+  <text x="320" y="215" font-family="Arial, sans-serif" font-size="12" fill="#3d7f62">Reward</text>
+  <text x="320" y="255" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#2d3d59">85%</text>
+  <circle cx="487" cy="250" r="44" fill="none" stroke="#7bdba7" stroke-width="12" stroke-dasharray="185 110" transform="rotate(-90 487 250)"/>
+
+  <rect x="595" y="180" width="260" height="170" rx="24" fill="#ffe5ef"/>
+  <text x="620" y="215" font-family="Arial, sans-serif" font-size="12" fill="#7d5367">Next quest</text>
+  <text x="620" y="255" font-family="Arial, sans-serif" font-size="26" fill="#2d3d59" font-weight="700">Read 10 min</text>
+  <rect x="620" y="285" width="130" height="18" rx="9" fill="#ffb7ce"/>
+  <rect x="620" y="285" width="82" height="18" rx="9" fill="#ffa0bf"/>
+
+  <rect x="295" y="390" width="560" height="250" rx="24" fill="#fff7f1" stroke="#f9e8d6"/>
+  <text x="320" y="430" font-family="Arial, sans-serif" font-size="22" fill="#2d3d59" font-weight="700">Today’s plan</text>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#425777">
+    <rect x="320" y="455" width="420" height="18" rx="9" fill="#f6e7d1"/>
+    <rect x="320" y="455" width="280" height="18" rx="9" fill="#ffb86d"/>
+    <text x="320" y="505">Practice numbers</text>
+    <rect x="320" y="520" width="420" height="18" rx="9" fill="#f2dfd8"/>
+    <rect x="320" y="520" width="340" height="18" rx="9" fill="#ff9cb1"/>
+    <text x="320" y="570">Creative drawing</text>
+    <rect x="320" y="585" width="420" height="18" rx="9" fill="#dcf1ea"/>
+    <rect x="320" y="585" width="365" height="18" rx="9" fill="#82d6b3"/>
+  </g>
+
+  <rect x="885" y="390" width="220" height="250" rx="24" fill="#f4f9ff" stroke="#dfeaf8"/>
+  <text x="910" y="430" font-family="Arial, sans-serif" font-size="22" fill="#2d3d59" font-weight="700">Badges</text>
+  <circle cx="930" cy="485" r="24" fill="#ffd866"/>
+  <circle cx="990" cy="485" r="24" fill="#9fd7ff"/>
+  <circle cx="1050" cy="485" r="24" fill="#ffb4d8"/>
+  <text x="910" y="560" font-family="Arial, sans-serif" font-size="16" fill="#4f607c">3 new stickers</text>
+</svg>
