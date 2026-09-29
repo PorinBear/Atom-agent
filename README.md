@@ -1,81 +1,39 @@
-# ATOM Agent
+# ATOM AI
 
-> **Viimeisin kehityspäivitys 29.9.2026 — WIP.** ATOMia viedään kohti jatkuvasti toimivaa AI-ohjaamoa, jossa keskustelu, taustatehtävät, selainagentti, projektit, muistikerros, hyväksynnät ja tulokset näkyvät samassa käyttöliittymässä. Kaikki uudemman kehityslinjan osat eivät ole vielä yhdistetty tähän julkiseen haaraan.
->
-> [Katso tarkempi kehitystilanne](docs/STATUS-2026-09-29.md)
+ATOM on jatkuvasti kehittyvä agentti- ja työtila-alusta. Tämä repo näyttää projektin käyttäjälle näkyvän suunnan ja tällä hetkellä rakennetun ytimen — ei kaikkia sisäisiä toteutusratkaisuja.
 
-### Ohjaamon suunta
+## Viimeisin kehityspäivitys — työn alla
 
-*Nämä ovat konsepti-/target-kuvia, eivät tuotannon runtime-kuvakaappauksia.*
+Nykyinen varmennettu kehityslinja sisältää:
+- jatkuvan agenttisilmukan ja taustatyön
+- prioriteetti- ja resurssienhallinnan
+- tavoitegraafin, riippuvuudet, blocker-tilat ja etenemisen
+- selain- ja tutkimustyökalujen orkestroinnin
+- muistia ja hallittua oppimista
+- PWA-käyttöliittymän
+- provider/model-routingin pohjan
+- lokituksen ja turvallisen hyväksyntämallin jatkokehityksen
 
-![ATOM Command Center](docs/assets/atom-cockpit-overview.webp)
+Kehitys jatkuu. Julkinen README ei ole täydellinen tekninen inventaario eikä lupaus siitä, että kaikki suunnitellut ominaisuudet ovat jo tuotannossa.
 
-![ATOM Live Status](docs/assets/atom-cockpit-status.webp)
+## Ohjaamo
 
-ATOM on tiimin sisäinen, itsenäisesti työskentelevä selainagentti. Se suorittaa verkkotehtäviä pysyvässä selainprofiilissa, pitää eri yritysten tiedot erillisissä työtiloissa ja pysähtyy hyväksyntään ennen ulkoisia tai vaikeasti peruttavia toimia.
+ATOMin käyttöliittymän tavoite ei ole tavallinen korttidashboard. Ohjaamo rakentuu selkeistä painikkeista, jatkuvasta tilapalautteesta ja agentin sekä käyttäjän välisestä vuorovaikutuksesta.
 
-## Nyt mukana
+Käyttäjä näkee työn elinkaaren esimerkiksi:
 
-- Playwright/Chromium-selain ja LLM-suunnittelija
-- jatkuva SQLite-tehtäväjono
-- puhelimella käytettävä ATOM Control -hallintasivu
-- iPhonen kotinäyttöön asennettava PWA-äppi ilman App Storea
-- puheesta tekstiksi -ohjaus ja vastausten lukeminen ääneen puhelimessa
-- oppimismuisti päätöksille, mieltymyksille, kontakteille ja työn opeille
-- työtilat `tommi-hq`, `ewalahti` ja `future-atom`
-- pysyvät selainprofiilit, lataukset, screenshotit ja lokit työtiloittain
-- turvallinen upload vain työtilan `files`-kansiosta
-- URL/SSRF-suojaus ja polkujen rajaus
-- kertakäyttöinen hyväksyntä maksuun, ostoon, lähetykseen, julkaisuun, uploadiin, poistoon, sopimukseen ja käyttöoikeusmuutokseen
-- tekstipohjainen yhteydenpito verkkopalveluissa hyväksynnän kautta
-- Codespaces-valmis kehitysympäristö ja testit
+**Kuuntelen → Suunnittelen → Haen tietoa → Analysoin → Kokoan → Valmis**
 
-## Nopein käynnistys iPhonelta: GitHub Codespaces
+Ohjaamo yhdistää keskustelun, aktiivisen tehtävän, projektit, työkalut, selaimen, tiedostot, muistin ja tulokset samaan näkymään. Tarkoitus on, että käyttäjä näkee mitä ATOM tekee ilman että sisäinen toteutus paljastetaan.
 
-1. Avaa repo GitHubissa ja valitse **Code → Codespaces → Create codespace**.
-2. Lisää Codespaces secret `OPENAI_API_KEY` GitHubin asetuksissa. Älä tallenna avainta repoon.
-3. Codespaces asentaa riippuvuudet ja Chromiumin automaattisesti.
-4. Käynnistä terminalissa:
+![ATOM live-ohjaamo](docs/images/atom-live-cockpit.png)
 
-```bash
-chmod +x start.sh
-./start.sh
-```
+![ATOM työtila](docs/images/atom-live-workspace.png)
 
-5. Avaa ilmoitettu portti **8000**. ATOM Control toimii iPhonen selaimessa.
-6. Valitse Safarissa **Jaa → Lisää Koti-valikkoon**, jolloin ATOM avautuu omana appinaan.
+## Periaate
 
-Pidä Codespace-portti yksityisenä. Kirjautumiset ja MFA tehdään ihmisen toimesta; agentti ei vastaanota eikä tallenna salasanoja tai vahvistuskoodeja.
+ATOM automatisoi rutiinia ja palautettavia työvaiheita. Ulkoiset, peruuttamattomat tai merkittävät toimet kuuluvat hyväksyntärajan taakse.
 
-## Maksuton käyttö ilman korttia
+## Julkinen vs. sisäinen
 
-Repo sisältää **ATOM Free Worker** -GitHub Actions -ajon. Avaa GitHubissa **Actions → ATOM Free Worker → Run workflow**, kirjoita tehtävä ja valitse työtila. Työ käynnistyy erillisessä selaimessa, ja tulos näkyy ajon Summary-näkymässä.
-
-Maksuton tila käyttää GitHub Copilot CLI:tä sisäänrakennetulla `GITHUB_TOKEN`-tunnuksella. Se sopii tutkimiseen, vertailuun, tarkistuksiin ja luonnosteluun. Kirjautumista tai ihmisen hyväksyntää vaativat ulkoiset toimet pysähtyvät turvallisesti. Jatkuvasti hereillä oleva PWA tarvitsee myöhemmin palvelimen tai oman aina päällä olevan tietokoneen.
-
-## Paikallinen käynnistys
-
-```bash
-python -m venv .venv
-source .venv/bin/activate       # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-playwright install chromium
-cp .env.example .env
-python -m uvicorn server:app --host 127.0.0.1 --port 8000
-```
-
-Toisessa terminalissa:
-
-```bash
-python agent.py --worker
-```
-
-Yksittäinen tehtävä ilman jonoa:
-
-```bash
-python agent.py --workspace ewalahti "Avaa yrityksen sivu ja tee laadunvarmistus"
-```
-
-## Turvaraja
-
-ATOM saa lukea, hakea, vertailla, luonnostella ja navigoida itsenäisesti. Ulospäin vaikuttavat toimet hyväksytään ATOM Controlissa yksi kerrallaan. CAPTCHAa, käyttöoikeuksia tai muita turvarajoja ei kierretä.
+Julkisesti voidaan näyttää käyttökokemus, työn eteneminen ja tuotteen yleiset kyvykkyydet. Tunnukset, avaimet, selainistunnot, asiakasdata, sisäinen deploy-rakenne ja kilpailuetua tuovat keskeneräiset yksityiskohdat eivät kuulu julkiseen repoon.
