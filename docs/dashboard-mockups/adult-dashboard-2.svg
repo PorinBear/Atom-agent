@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
-  <title id="title">Placeholder removed</title>
-  <desc id="desc">This placeholder dashboard asset has been removed and will be replaced with the final approved source image.</desc>
-  <rect width="1200" height="800" fill="#0c1117"/>
-  <rect x="40" y="40" width="1120" height="720" rx="24" fill="#121b26" stroke="#2b3b4b" stroke-width="2"/>
-  <text x="600" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#f1f5f9">Placeholder removed</text>
-  <text x="600" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#a7b7c9">Waiting for the approved final image asset.</text>
-</svg>
