@@ -1,63 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
-  <title id="title">Child dashboard concept v2</title>
-  <desc id="desc">A brighter child dashboard concept with reward cards, learning plan, and pastel modules.</desc>
-  <defs>
-    <linearGradient id="bgChild2" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#fffaf2"/>
-      <stop offset="100%" stop-color="#f5fbff"/>
-    </linearGradient>
-    <filter id="shadowChild2" x="-20%" y="-20%" width="140%" height="170%">
-      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#e9e2d7" flood-opacity="0.45"/>
-    </filter>
-  </defs>
-
-  <rect width="1400" height="900" fill="url(#bgChild2)"/>
-  <rect x="0" y="0" width="230" height="900" fill="#f8fbff"/>
-  <text x="115" y="95" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#3b4055">Kids</text>
-
-  <rect x="270" y="50" width="1050" height="780" rx="28" fill="#fffdfb" stroke="#f6e8d6" stroke-width="2" filter="url(#shadowChild2)"/>
-  <text x="310" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#2d3d59">My learning room</text>
-  <text x="310" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#6d7d98">Child view • Theme B</text>
-
-  <g>
-    <rect x="310" y="180" width="300" height="175" rx="24" fill="#dff9ef"/>
-    <text x="340" y="216" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#3d7a63">Reward</text>
-    <text x="340" y="260" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700" fill="#2d3d59">85%</text>
-    <circle cx="515" cy="255" r="42" fill="none" stroke="#7cd9a9" stroke-width="12" stroke-dasharray="185 120" transform="rotate(-90 515 255)"/>
-
-    <rect x="640" y="180" width="300" height="175" rx="24" fill="#ffe8f0"/>
-    <text x="670" y="216" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#7a536b">Next quest</text>
-    <text x="670" y="260" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#2d3d59">Read 10 min</text>
-    <rect x="670" y="290" width="140" height="18" rx="9" fill="#ffc3d5"/>
-    <rect x="670" y="290" width="88" height="18" rx="9" fill="#ff9cb9"/>
-  </g>
-
-  <g>
-    <rect x="310" y="390" width="560" height="250" rx="24" fill="#fff7f0" stroke="#f6e1cf" stroke-width="2"/>
-    <text x="336" y="430" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#2d3d59">Today’s plan</text>
-
-    <g font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#455a78">
-      <rect x="340" y="455" width="420" height="18" rx="9" fill="#f4e3cf"/>
-      <rect x="340" y="455" width="280" height="18" rx="9" fill="#ffb96d"/>
-      <text x="340" y="505">Practice numbers</text>
-
-      <rect x="340" y="520" width="420" height="18" rx="9" fill="#f5e0e1"/>
-      <rect x="340" y="520" width="340" height="18" rx="9" fill="#ff9bb1"/>
-      <text x="340" y="570">Creative drawing</text>
-
-      <rect x="340" y="585" width="420" height="18" rx="9" fill="#dff3eb"/>
-      <rect x="340" y="585" width="365" height="18" rx="9" fill="#84d7b3"/>
-    </g>
-  </g>
-
-  <g>
-    <rect x="900" y="390" width="330" height="250" rx="24" fill="#f2f9ff" stroke="#dfeaf9" stroke-width="2"/>
-    <text x="928" y="430" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#2d3d59">Badges</text>
-    <circle cx="952" cy="485" r="24" fill="#ffd866"/>
-    <circle cx="1022" cy="485" r="24" fill="#9fd8ff"/>
-    <circle cx="1092" cy="485" r="24" fill="#ffb4d8"/>
-    <text x="928" y="560" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#4d607c">3 new stickers</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder removed</title>
+  <desc id="desc">This placeholder dashboard asset has been removed and will be replaced with the final approved source image.</desc>
+  <rect width="1200" height="800" fill="#f8f9fb"/>
+  <rect x="40" y="40" width="1120" height="720" rx="24" fill="#ffffff" stroke="#d7e1ee" stroke-width="2"/>
+  <text x="600" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#2d3d59">Placeholder removed</text>
+  <text x="600" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#6a7f9a">Waiting for the approved final image asset.</text>
 </svg>
-
-

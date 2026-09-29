@@ -1,17 +1,16 @@
 # Hallintapaneelin mockupit
 
-Tämä kansio sisältää neljä dashboard-mockup-kuvaa:
+Tämä kansio on nyt tyhjä odottamassa hyväksyttyjä lopullisia kuvia.
 
-- Aikuisten versio (2 kuvaa)
-  - `adult-dashboard-1.svg`
-  - `adult-dashboard-2.svg`
-- Lasten versio (2 kuvaa)
-  - `child-dashboard-1.svg`
-  - `child-dashboard-2.svg`
+Nykyiset placeholder-kuvat on poistettu, jotta ei jää väärää visuaalista versiota repoihin.
 
-Kuvat on tehty ensimmäiseksi visuaaliseksi konseptiksi: ne ovat siistimpiä, mutta silti varhaisena versiona, jotta ulkoasu on selkeä ja muokattavissa. Aikuisten ja lasten teemat on eroteltu selkeästi eri väreillä ja korttimalleilla.
+Kun oikeat kuvat ovat ladattu ja hyväksytty, ne korvataan näihin tiedostoihin:
 
-Jos haluat, voin seuraavaksi tehdä niistä:
-- vielä "tuotantomaisemman" version,
-- enemmän realistisen dashboardin ilman "mockup"-fiilistä,
-- tai muokata värejä ja layoutin vastaamaan tarkemmin valmista käyttöliittymää.
+- `adult-dashboard-1.svg`
+- `adult-dashboard-2.svg`
+- `child-dashboard-1.svg`
+- `child-dashboard-2.svg`
+
+Tavoite on, että tässä kansiossa on lopulta 4 hyväksyttyä kuvaa:
+- 2 aikuisten UI-versiota
+- 2 lasten UI-versiota

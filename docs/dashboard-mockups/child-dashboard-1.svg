@@ -1,79 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
-  <title id="title">Child dashboard concept v1</title>
-  <desc id="desc">A playful child-friendly dashboard concept with light pastel colors and friendly, early-version layout.</desc>
-  <defs>
-    <linearGradient id="bgChild1" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#fdf7ff"/>
-      <stop offset="100%" stop-color="#edf9f3"/>
-    </linearGradient>
-    <filter id="shadowChild1" x="-20%" y="-20%" width="140%" height="170%">
-      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#e7dff4" flood-opacity="0.45"/>
-    </filter>
-  </defs>
-
-  <rect width="1400" height="900" fill="url(#bgChild1)"/>
-  <rect x="0" y="0" width="230" height="900" fill="#f1f9ff"/>
-  <circle cx="115" cy="80" r="30" fill="#ffd563"/>
-  <text x="115" y="145" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#394761">Sentry</text>
-
-  <g font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#3a4b67">
-    <rect x="40" y="170" width="150" height="46" rx="18" fill="#dfeeff"/>
-    <text x="115" y="200" text-anchor="middle">Home</text>
-    <rect x="40" y="232" width="150" height="46" rx="18" fill="#eafaf0"/>
-    <text x="115" y="262" text-anchor="middle">Tasks</text>
-    <rect x="40" y="294" width="150" height="46" rx="18" fill="#fbeaf7"/>
-    <text x="115" y="324" text-anchor="middle">Games</text>
-  </g>
-
-  <rect x="270" y="50" width="1050" height="780" rx="30" fill="#fffefc" filter="url(#shadowChild1)"/>
-  <text x="310" y="110" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#2d3d5d">Children dashboard</text>
-  <text x="310" y="142" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#7287a0">Child view • Theme A</text>
-
-  <g>
-    <rect x="310" y="180" width="210" height="120" rx="22" fill="#dff7ff"/>
-    <text x="340" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#587691">Today</text>
-    <text x="340" y="261" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" fill="#2b3d5d">4</text>
-    <circle cx="440" cy="240" r="22" fill="#8ad8ff"/>
-
-    <rect x="545" y="180" width="210" height="120" rx="22" fill="#efeaff"/>
-    <text x="575" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5f4d86">Stars</text>
-    <text x="575" y="261" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" fill="#2b3d5d">12</text>
-    <path d="M610 214 L625 230 L648 234 L632 252 L636 275 L610 264 L584 275 L588 252 L572 234 L595 230 Z" fill="#ffd866"/>
-
-    <rect x="780" y="180" width="210" height="120" rx="22" fill="#e7f9ee"/>
-    <text x="810" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#2f6b4d">Goals</text>
-    <text x="810" y="261" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" fill="#2b3d5d">3</text>
-    <rect x="885" y="208" width="28" height="42" rx="12" fill="#81d8ae"/>
-  </g>
-
-  <g>
-    <rect x="310" y="335" width="610" height="285" rx="24" fill="#f7f5ff" stroke="#eedfff" stroke-width="2"/>
-    <text x="336" y="376" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#2d3d59">Progress</text>
-    <g>
-      <rect x="340" y="465" width="50" height="75" rx="14" fill="#9ad7ff"/>
-      <rect x="402" y="440" width="50" height="100" rx="14" fill="#bdb0ff"/>
-      <rect x="464" y="420" width="50" height="120" rx="14" fill="#94e1c7"/>
-      <rect x="526" y="448" width="50" height="92" rx="14" fill="#ffd496"/>
-      <rect x="588" y="430" width="50" height="110" rx="14" fill="#ffb4d8"/>
-      <rect x="650" y="390" width="50" height="150" rx="14" fill="#8ed9c8"/>
-      <rect x="712" y="435" width="50" height="105" rx="14" fill="#a7d4ff"/>
-    </g>
-  </g>
-
-  <g>
-    <rect x="955" y="335" width="295" height="285" rx="24" fill="#fff6fb" stroke="#f7dfe9" stroke-width="2"/>
-    <text x="982" y="376" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#2d3d59">Checklist</text>
-    <g font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#455a77">
-      <circle cx="990" cy="414" r="7" fill="#9ad7ff"/>
-      <text x="1008" y="420">Math</text>
-      <circle cx="990" cy="446" r="7" fill="#94e1c7"/>
-      <text x="1008" y="452">Reading</text>
-      <circle cx="990" cy="478" r="7" fill="#ffd496"/>
-      <text x="1008" y="484">Art</text>
-      <circle cx="990" cy="510" r="7" fill="#ffb4d8"/>
-      <text x="1008" y="516">Play</text>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder removed</title>
+  <desc id="desc">This placeholder dashboard asset has been removed and will be replaced with the final approved source image.</desc>
+  <rect width="1200" height="800" fill="#f8f9fb"/>
+  <rect x="40" y="40" width="1120" height="720" rx="24" fill="#ffffff" stroke="#d7e1ee" stroke-width="2"/>
+  <text x="600" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#2d3d59">Placeholder removed</text>
+  <text x="600" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#6a7f9a">Waiting for the approved final image asset.</text>
 </svg>
-
-
