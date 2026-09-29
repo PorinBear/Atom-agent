@@ -52,13 +52,6 @@ Aikuisten ja lasten näkymät ovat käyttäjän itse valittavia. Aikuisten Sentr
 
 Alla olevat kuvat ovat projektin nykyisiä oikeita konsepti-/käyttöliittymäkuvia. Ne pidetään alkuperäisinä assetteina eikä korvata geneerisillä placeholder-kuvilla.
 
-![Sentry käyttöliittymä](docs/5B3F40DA-B468-4F00-AFA5-E8343191C1CE.png)
-
-![Sentry aikuisten näkymä 1](docs/IMG_0194.jpeg)
-
-![Sentry aikuisten näkymä 2](docs/IMG_0197.jpeg)
-
-![Sentry käyttöliittymän lisänäkymä](docs/IMG_0204.jpeg)
 
 ### Aikuisten uudet käyttöliittymäkuvat
 
