@@ -1,6 +1,8 @@
-# ATOM AI
+# Sentry
 
-ATOM on jatkuvasti kehittyvä agentti- ja työtila-alusta. Tämä repo näyttää projektin käyttäjälle näkyvän suunnan ja tällä hetkellä rakennetun ytimen — ei kaikkia sisäisiä toteutusratkaisuja.
+**AI Agentti Ohjaamo · powered by ATOM**
+
+Sentry on käyttäjälle näkyvä pääagentti. ATOM on taustalla oleva agentti- ja työtila-alusta sekä koko projektiperheen tekninen pohja. Tämä repo näyttää projektin käyttäjälle näkyvän suunnan ja tällä hetkellä rakennetun ytimen — ei kaikkia sisäisiä toteutusratkaisuja.
 
 ## Viimeisin kehityspäivitys — työn alla
 
@@ -16,17 +18,21 @@ Nykyinen varmennettu kehityslinja sisältää:
 
 Kehitys jatkuu. Julkinen README ei ole täydellinen tekninen inventaario eikä lupaus siitä, että kaikki suunnitellut ominaisuudet ovat jo tuotannossa.
 
-## Ohjaamo
+## Sentry-ohjaamo
 
-ATOMin käyttöliittymän tavoite ei ole tavallinen korttidashboard. Ohjaamo rakentuu selkeistä painikkeista, jatkuvasta tilapalautteesta ja agentin sekä käyttäjän välisestä vuorovaikutuksesta.
+Sentryn käyttöliittymän tavoite ei ole tavallinen korttidashboard. Ohjaamo rakentuu selkeistä painikkeista, jatkuvasta tilapalautteesta ja agentin sekä käyttäjän välisestä vuorovaikutuksesta.
 
 Käyttäjä näkee työn elinkaaren esimerkiksi:
 
 **Kuuntelen → Suunnittelen → Haen tietoa → Analysoin → Kokoan → Valmis**
 
-Ohjaamo yhdistää keskustelun, aktiivisen tehtävän, projektit, työkalut, selaimen, tiedostot, muistin ja tulokset samaan näkymään. Tarkoitus on, että käyttäjä näkee mitä ATOM tekee ilman että sisäinen toteutus paljastetaan.
+Sentry-ohjaamo yhdistää keskustelun, aktiivisen tehtävän, projektit, työkalut, selaimen, tiedostot, muistin ja tulokset samaan näkymään. Tarkoitus on, että käyttäjä näkee mitä ATOM tekee ilman että sisäinen toteutus paljastetaan.
 
-![ATOM hyväksytty ohjaamo](docs/images/atom-approved-cockpit-v3.svg)
+### Näkymävalinta
+
+Aikuisten ja lasten näkymät ovat käyttäjän itse valittavia. Aikuisten Sentry käyttää hillittyjä teknisiä teemoja; lasten Sentry toimii ystävällisempänä virtuaalisena kumppanina, joka neuvoo, auttaa, muistuttaa sovituista asioista ja kasvaa käyttökokemuksen mukana. Animaatiot ja teemat pidetään erillisinä vaihtoehtoina eikä niitä kierrätetä automaattisesti.
+
+> Hyväksytyt media-assettit: 4 staattista näkymää + 5 animaatiotiedostoa, julkaisuassetit päivitetään alkuperäistiedostoista.
 
 
 
