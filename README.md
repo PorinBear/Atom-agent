@@ -4,6 +4,16 @@
 
 Sentry on käyttäjälle näkyvä pääagentti. ATOM on taustalla oleva agentti- ja työtila-alusta sekä koko projektiperheen tekninen pohja. Tämä repo näyttää projektin käyttäjälle näkyvän suunnan ja tällä hetkellä rakennetun ytimen — ei kaikkia sisäisiä toteutusratkaisuja.
 
+## Sentryn animaatiot ja lasten versio
+
+Sentryn keskushahmo ei ole vain koriste, vaan käyttöliittymän visuaalinen palaute. Animaatio voi reagoida esimerkiksi kuunteluun, puheeseen, ajatteluun, työn etenemiseen, valmistumiseen ja virhetilanteeseen. Ulkoasu/animaatio valitaan käyttäjän toimesta; vaihtoehtoja ei vaihdeta automaattisesti kesken käytön. Ensimmäiseen julkaisuun käytetään hyväksyttyjä still-kuvia, ja viisi valmista MP4-animaatiota säilytetään erillisinä vaihtoehtoina myöhempää käyttöliittymäpäivitystä varten.
+
+### Lasten Sentry
+
+Lasten versio on oma käyttökokemuksensa, ei vain aikuisten näkymä eri väreillä. Sen keskellä on ystävällinen virtuaalinen hahmo/kumppani ja käyttöliittymä on selkeämpi, rauhallisempi ja helpommin lähestyttävä. Lapsi voi valita hahmon tai ulkoasun itse.
+
+Tavoitteena on digitaalinen kaveri, joka voi keskustella, neuvoa, auttaa tehtävissä ja muistuttaa sovituista asioista. Kokemus voi mukautua käytön myötä lapselle sopivaksi, mutta huoltajan asetukset, ikätasoinen sisältö, yksityisyys ja turvallisuus ovat erillisiä rajoja. Lasten versio ei saa tehdä itsenäisesti korkean vaikutuksen toimia lapsen puolesta.
+
 ## Viimeisin kehityspäivitys — työn alla
 
 Nykyinen varmennettu kehityslinja sisältää:
