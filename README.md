@@ -6,13 +6,19 @@ Sentry on käyttäjälle näkyvä pääagentti. ATOM on taustalla oleva agentti-
 
 ## Sentryn animaatiot ja lasten versio
 
-Sentryn keskushahmo ei ole vain koriste, vaan käyttöliittymän visuaalinen palaute. Animaatio voi reagoida esimerkiksi kuunteluun, puheeseen, ajatteluun, työn etenemiseen, valmistumiseen ja virhetilanteeseen. Ulkoasu/animaatio valitaan käyttäjän toimesta; vaihtoehtoja ei vaihdeta automaattisesti kesken käytön. Ensimmäiseen julkaisuun käytetään hyväksyttyjä still-kuvia, ja viisi valmista MP4-animaatiota säilytetään erillisinä vaihtoehtoina myöhempää käyttöliittymäpäivitystä varten.
+Sentryn keskushahmo ei ole vain koriste, vaan käyttöliittymän visuaalinen palaute. Animaatio voi reagoida esimerkiksi kuunteluun, puheeseen, ajatteluun, työn etenemiseen, valmistumiseen ja virhetilanteeseen. Ulkoasu/animaatio valitaan käyttäjän toimesta; vaihtoehtoja ei vaihdeta automaattisesti kesken käytön. Ensimmäiseen julkaisuun käytetään hyväksyttyjä still-kuvia, ja 10 valmista animaatiota säilytetään erillisinä vaihtoehtoina myöhempää käyttöliittymäpäivitystä varten.
 
 ### Lasten Sentry
 
 Lasten versio on oma käyttökokemuksensa, ei vain aikuisten näkymä eri väreillä. Sen keskellä on ystävällinen virtuaalinen hahmo/kumppani ja käyttöliittymä on selkeämpi, rauhallisempi ja helpommin lähestyttävä. Lapsi voi valita hahmon tai ulkoasun itse.
 
-Tavoitteena on digitaalinen kaveri, joka voi keskustella, neuvoa, auttaa tehtävissä ja muistuttaa sovituista asioista. Kokemus voi mukautua käytön myötä lapselle sopivaksi, mutta huoltajan asetukset, ikätasoinen sisältö, yksityisyys ja turvallisuus ovat erillisiä rajoja. Lasten versio ei saa tehdä itsenäisesti korkean vaikutuksen toimia lapsen puolesta.
+Tavoitteena on digitaalinen kaveri, joka tukee lapsen kasvua myös koulun ulkopuolella. Sentry voi auttaa harjoittelemaan esimerkiksi rahankäyttöä, ajankäyttöä, järkevää netti- ja peliaikaa, arjen valintoja, tiedonhakua ja ongelmanratkaisua.
+
+Keskeinen periaate on **auta tekemään — älä tee lapsen puolesta**. Sentry ei anna vain valmista ratkaisua silloin, kun lapsi pystyy etenemään itse, vaan pilkkoo asian sopiviin vaiheisiin, kysyy, antaa vihjeitä ja auttaa lasta tarkistamaan oman ratkaisunsa. Tavoitteena on, että lapsen oma harkinta, taidot ja itsenäisyys kehittyvät käytön mukana.
+
+Tätä varten lasten versiossa on tarkoituksellinen oppimisen "jarru": avun tasoa voidaan rajata tilanteen, iän ja tehtävän mukaan. Sentry voi ensin kysyä lapsen omaa ajatusta, tarjota seuraavan vihjeen vasta tarvittaessa ja siirtyä suorempaan apuun vasta, kun se on perusteltua. Jarrun tarkoitus ei ole estää avun saamista vaan estää sitä, että tekoäly korvaa harjoittelun ja oman ajattelun.
+
+Huoltajan asetukset, ikätasoinen sisältö, yksityisyys ja turvallisuus muodostavat erilliset rajat. Lasten versio ei saa tehdä itsenäisesti korkean vaikutuksen toimia lapsen puolesta. Tämä "lapsi kehittyy, Sentry tukee" -periaate on myös keskeinen osa tuotteen esittelyä.
 
 ## Viimeisin kehityspäivitys — työn alla
 
