@@ -60,6 +60,16 @@ Alla olevat kuvat ovat projektin nykyisiä oikeita konsepti-/käyttöliittymäku
 
 ![Sentry käyttöliittymän lisänäkymä](docs/IMG_0204.jpeg)
 
+### Lasten käyttöliittymäkuvat
+
+![Sentry lasten näkymä 1](IMG_0233.jpeg)
+
+![Sentry lasten näkymä 2](IMG_0234.jpeg)
+
+![Sentry lasten näkymä 3](IMG_0236.jpeg)
+
+![Sentry lasten näkymä 4](IMG_0237.jpeg)
+
 ### Visuaalisen käyttöliittymän jatkolinja
 
 **Aikuisten versio:** nykyinen ympyrämäinen keskuselementti ei ole lopullinen tunnus. Jatkokehityksessä tutkitaan omaleimaisempaa, teknistä ja elävää Sentry-elementtiä, joka näyttää kuuntelun, ajattelun, työskentelyn ja valmistumisen ilman että käyttöliittymä rakentuu yhden tavallisen AI-pallon ympärille.
