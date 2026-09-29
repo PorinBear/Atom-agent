@@ -9,6 +9,9 @@ Tämä kansio sisältää neljä dashboard-mockup-kuvaa:
   - `child-dashboard-1.svg`
   - `child-dashboard-2.svg`
 
-Nämä kuvat on tehty esittämään kahta eri väri- / teemaversiota, joista toinen on aikuisten UI ja toinen lasten UI. Jokaisessa teemassa on kaksi näkymää, jotta kokonaisuudessa on yhteensä 4 kuvaa.
+Kuvat on tehty ensimmäiseksi visuaaliseksi konseptiksi: ne ovat siistimpiä, mutta silti varhaisena versiona, jotta ulkoasu on selkeä ja muokattavissa. Aikuisten ja lasten teemat on eroteltu selkeästi eri väreillä ja korttimalleilla.
 
-Jos haluat, voin myöhemmin korvata nämä yksinkertaiset placeholder-kuvat oikeilla tuotantokuvilla tai rakentaa niistä selaimessa esikatselun.
+Jos haluat, voin seuraavaksi tehdä niistä:
+- vielä "tuotantomaisemman" version,
+- enemmän realistisen dashboardin ilman "mockup"-fiilistä,
+- tai muokata värejä ja layoutin vastaamaan tarkemmin valmista käyttöliittymää.
