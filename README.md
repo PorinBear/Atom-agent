@@ -26,9 +26,9 @@ Käyttäjä näkee työn elinkaaren esimerkiksi:
 
 Ohjaamo yhdistää keskustelun, aktiivisen tehtävän, projektit, työkalut, selaimen, tiedostot, muistin ja tulokset samaan näkymään. Tarkoitus on, että käyttäjä näkee mitä ATOM tekee ilman että sisäinen toteutus paljastetaan.
 
-![ATOM live-ohjaamo](docs/images/atom-live-cockpit.svg)
+![ATOM hyväksytty ohjaamo](docs/images/atom-approved-cockpit-v3.svg)
 
-![ATOM työtila](docs/images/atom-live-workspace.svg)
+
 
 ## Periaate
 
