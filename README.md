@@ -48,7 +48,27 @@ Sentry-ohjaamo yhdistää keskustelun, aktiivisen tehtävän, projektit, työkal
 
 Aikuisten ja lasten näkymät ovat käyttäjän itse valittavia. Aikuisten Sentry käyttää hillittyjä teknisiä teemoja; lasten Sentry toimii ystävällisempänä virtuaalisena kumppanina, joka neuvoo, auttaa, muistuttaa sovituista asioista ja kasvaa käyttökokemuksen mukana. Animaatiot ja teemat pidetään erillisinä vaihtoehtoina eikä niitä kierrätetä automaattisesti.
 
-> Hyväksytyt media-assettit: 4 staattista näkymää + 5 animaatiotiedostoa, julkaisuassetit päivitetään alkuperäistiedostoista.
+### Käyttöliittymäkuvat
+
+Alla olevat kuvat ovat projektin nykyisiä oikeita konsepti-/käyttöliittymäkuvia. Ne pidetään alkuperäisinä assetteina eikä korvata geneerisillä placeholder-kuvilla.
+
+![Sentry käyttöliittymä](docs/5B3F40DA-B468-4F00-AFA5-E8343191C1CE.png)
+
+![Sentry aikuisten näkymä 1](docs/IMG_0194.jpeg)
+
+![Sentry aikuisten näkymä 2](docs/IMG_0197.jpeg)
+
+![Sentry käyttöliittymän lisänäkymä](docs/IMG_0204.jpeg)
+
+### Visuaalisen käyttöliittymän jatkolinja
+
+**Aikuisten versio:** nykyinen ympyrämäinen keskuselementti ei ole lopullinen tunnus. Jatkokehityksessä tutkitaan omaleimaisempaa, teknistä ja elävää Sentry-elementtiä, joka näyttää kuuntelun, ajattelun, työskentelyn ja valmistumisen ilman että käyttöliittymä rakentuu yhden tavallisen AI-pallon ympärille.
+
+**Lasten versio:** lasten käyttöliittymä säilytetään selvästi erillisenä aikuisten ohjaamosta. Nykyisen hyväksytyn lasten näkymän suunta toimii pohjana. Seuraavissa vaiheissa rakennetaan Sentrylle omat alkuperäiset hahmot, ei valmiiden hahmomaailmojen kopioita.
+
+Hahmo ja käyttöliittymä voivat kehittyä lapsen ikätason mukana: pienemmälle käyttäjälle visuaalisempi ja hahmovetoisempi kokemus, myöhemmin asteittain itsenäisempi ja teknisempi näkymä. Ikä ei yksin vaihda kokemusta äkillisesti, vaan siirtymät suunnitellaan hallituiksi ja huoltajan asetukset huomioiviksi. Lapsen oma eteneminen, taidot ja valinnat voivat avata uusia käyttöliittymän tasoja ilman että järjestelmä tekee asioita lapsen puolesta.
+
+> Hyväksytyt media-assettit säilytetään alkuperäistiedostoina ja käyttöliittymäkuvia päivitetään projektin edetessä.
 
 
 
